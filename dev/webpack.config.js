@@ -4,6 +4,13 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 
+let multipleViews = ['blank', 'tables', 'elements'].map(name => {
+  return new HtmlWebpackPlugin({
+    template: `./src/${name}.html`,
+    filename: `${name}.html`
+  })
+})
+
 module.exports = {
   context: __dirname,
   entry: {
@@ -28,7 +35,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      'template': './src/app.html',
+      'template': './src/index.html',
     }),
 
     new MiniCssExtractPlugin({
@@ -47,7 +54,7 @@ module.exports = {
         },
       ],
     }),
-  ],
+  ].concat(multipleViews),
 
   module: {
     rules: [

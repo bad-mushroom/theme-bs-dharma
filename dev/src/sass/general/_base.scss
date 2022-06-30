@@ -1,0 +1,38 @@
+body {
+    background-color: $light;
+    color: $grey;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: $pink;
+    text-decoration: none;
+}
+
+p {
+    padding: 5px 0 5px 0;
+    margin: 0;
+}
+
+section {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    border: 0;
+    background-color: $white;
+    padding: 18px;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto.eot');
+    /* IE9 Compat Modes */
+    src: url('roboto.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('roboto.woff') format('woff'),
+        /* Modern Browsers */
+        url('roboto.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('roboto.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}

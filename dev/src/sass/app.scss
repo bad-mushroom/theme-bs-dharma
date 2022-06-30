@@ -1,0 +1,22 @@
+
+/* Define the color schema Bootstrap will use */
+@import "config/colors";
+
+/* Import Bootstrap */
+@import "~bootstrap/scss/bootstrap";
+
+/* Theme Variables */
+@import "config/variables";
+
+/* General Styles */
+@import "general/base";
+@import "general/typography";
+
+/* Structural Elements */
+@import "structure/layout";
+@import "structure/sidebar";
+@import "structure/navigation";
+
+/* Elements */
+@import "elements/breadcrumbs";
+@import "elements/cards";

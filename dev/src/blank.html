@@ -15,14 +15,35 @@
     <div class="wrapper-main">
 
         <!-- Page Header --------------------------------------- -->
-        <nav class="navbar top-nav fixed-top-nav p-3 mb-3 border-bottom">
-            <div class="container-fluid navigation-top d-flex flex-wrap ">
+        <nav class="navbar navbar-expand-md top-nav fixed-top-nav p-3 mb-3 border-bottom">
+            <div class="container-fluid navigation-top ">
 
-                <!-- Brand / TItle -->
-                <a class="navbar-brand d-none d-md-block text-light" href="#">Dharma</a>
+                <!-- Mobile Menu Collapse -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-three-dots text-light"></i>
+                </button>
+
+                <!-- Collapse on mobile -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <!-- Brand / Title -->
+                    <a class="navbar-brand text-light" href="#">Dharma</a>
+
+                    <!-- Navigation Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+
+                </div>
 
                 <!-- Status Icons -->
-                <ul class="nav notifications col-sm-8 col-md-auto ms-md-auto me-4 mb-md-0">
+                <ul class="nav notifications col-12 col-sm-auto ms-sm-auto me-4 mb-sm-0">
 
                     <!-- Search -->
                     <li class="dropdown notification">
@@ -183,7 +204,7 @@
                                                     </span>
                                                 </div>
                                                 <div class="notification-list-alert-block text-muted">
-                                                    <span class="text-warning">Little Bo Peep</span> sent you a
+                                                    <span class="text-warning">LiTitle Bo Peep</span> sent you a
                                                     message.
                                                     <p>Sorry, I can't make it tonight.</p>
                                                     <div class="text-muted">Yesterday</div>
@@ -222,7 +243,10 @@
                                     class="bi bi-box-arrow-right me-2 text-danger"></i>Sign out</a></li>
                     </ul>
                 </div>
+
+
             </div>
+
         </nav>
         <!-- End Page Header ----------------------------------- -->
 

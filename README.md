@@ -20,6 +20,10 @@ The `production` folder is a pre-compiled and minified bundle that is ready to b
 
 If you find any bugs, feel free to open an issue or - better yet - open a pull request with the fix!
 
+If you use Dharma in your project, please show some ❤️ and [buy me a coffee](https://ko-fi.com/g0dzuki99) 😄
+
+<a href='https://ko-fi.com/H2H0CTMMB' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) International License.

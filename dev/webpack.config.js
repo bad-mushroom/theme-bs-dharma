@@ -52,6 +52,10 @@ module.exports = {
           from: './src/fonts',
           to: 'assets/fonts'
         },
+        {
+          from: path.resolve(__dirname, './node_modules/bootstrap-icons/font/fonts'),
+          to: 'assets/fonts'
+        }
       ],
     }),
   ].concat(multipleViews),

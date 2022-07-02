@@ -50,7 +50,7 @@ module.exports = {
         // },
         {
           from: './src/fonts',
-          to: 'fonts'
+          to: 'assets/fonts'
         },
       ],
     }),

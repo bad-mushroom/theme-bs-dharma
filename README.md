@@ -2,7 +2,7 @@
 
 Dharma is a minimal-dependency, Bootstrap 5 (along with Bootstrap Icons) theme for your projects.
 
-<img src="https://user-images.githubusercontent.com/link-to-your-image.png" width="800" />
+<img src="https://github.com/bad-mushroom/theme-bs-dharma/blob/main/docs/screenshots/screenshot.png" width="800" />
 
 
 ## Builds
